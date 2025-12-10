@@ -1,0 +1,4 @@
+include: common
+doc_to_text: !function utils.doc_to_text_eng_ep2
+doc_to_target: !function utils.doc_to_choice_eng
+task: AmharicMaternalHealth_english_ep2_gen

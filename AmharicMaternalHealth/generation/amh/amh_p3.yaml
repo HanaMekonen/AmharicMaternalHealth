@@ -1,0 +1,4 @@
+include: common
+doc_to_text: !function utils.doc_to_text_amh_eng_p3
+doc_to_target: !function utils.doc_to_choice_amh
+task: AmharicMaternalHealth_amharic_ap3_gen
