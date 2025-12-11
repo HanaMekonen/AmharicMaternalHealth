@@ -10,7 +10,7 @@ def doc_to_choice_amh(doc):
     return choices
 
 def doc_to_text_amh_eng_p1(doc):
-    output = """ለሚከተለው ጥያቄ መልስ ይስጡ.
+    output = """በመቀጠል የተሰጠውን ጥያቄ በጥንቃቄ በማንበብ ትክክለኛ መልስ የሚሆነውን በግልፅ ያስቀምጡ።  
 
                 ጥያቄ:
                 "{question}"
@@ -23,7 +23,7 @@ def doc_to_text_amh_eng_p1(doc):
     return text
 
 def doc_to_text_amh_eng_p2(doc):
-    output = """በጥንቃቄ ያንብቡ እና ከዚያ ስለ እሱ ያለዎትን ግንዛቤ የሚፈትሽውን ጥያቄ ይመልሱ።
+    output = """ከዚህ በታች የተሰጠውን የእናቶችና ህፃናት ጤናን የተመለከተ ጥያቄ በጥንቃቄ በማንበብ ትክክለኛውን መልስ ይስጡ።
                 
                 ጥያቄ:
                 "{question}"
@@ -36,7 +36,7 @@ def doc_to_text_amh_eng_p2(doc):
 
 
 def doc_to_text_amh_eng_p3(doc):
-    output = """ በጣም ትክክለኛውን መልስ ይምረጡ።
+    output = """ በደንብ ልምድ ያሎት የቅድመ ወሊድ እና የድህረ ወሊድ እናቶችና ህፃናት ጤና አማካሪ ኖት። ከእርግዝና፣ ከወሊድና እና ከድህረ ወሊድ ጤና ጋር የተያያዘ ጥያቄ ይሰጥዎታል። ጥያቄውን በጥንቃቄ በማንበብ ተገቢውን መልስ ይስጡ። 
                
                 ጥያቄ:
                 "{question}"

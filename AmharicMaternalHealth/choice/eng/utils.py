@@ -7,8 +7,7 @@ def doc_to_choice_eng(doc):
 
 
 def doc_to_text_amh_eng_ep1(doc):
-    output = """Answer the question .
-
+    output = """Please read the question carefully and choose the correct answer from the four choices.
                 Question:
                 "{question}"
 
@@ -30,7 +29,7 @@ def doc_to_text_amh_eng_ep1(doc):
     return text
 
 def doc_to_text_eng_ep1(doc):
-    output = """answer the question that follows.
+    output = """Please read the question carefully and choose the correct answer from the four choices.
 
                 Story:
                 "{story}"
@@ -56,7 +55,7 @@ def doc_to_text_eng_ep1(doc):
     return text
 
 def doc_to_text_amh_eng_ep2(doc):
-    output = """ answer the question that tests your understanding of it.
+    output = """ Read carefully the maternal and child health related questions below with four possible answers and choose the correct answer by answering only one letter A, B, D, or G.
 
                 Story:
                 "{story}"
@@ -82,8 +81,7 @@ def doc_to_text_amh_eng_ep2(doc):
     return text
 
 def doc_to_text_eng_ep2(doc):
-    output = """answer the question that tests your understanding of it.
-
+    output = """Read carefully the maternal and child health related questions below with four possible answers and choose the correct answer by answering only one letter A, B, D, or G.
                 
                 Question:
                 "{question}"
@@ -107,7 +105,7 @@ def doc_to_text_eng_ep2(doc):
 
 
 def doc_to_text_amh_eng_ep3(doc):
-    output = """ choose the most accurate answer to the question that follows.
+    output = """ You are a well experienced prenatal and post-natal maternal and child health consultant. You will be provided with optional questions related to pregnancy, delivery, and postnatal health. Your task is to read the question carefully and choose the best answer from the options (a, b, d, or g).
 
 
                 Question:
@@ -131,7 +129,7 @@ def doc_to_text_amh_eng_ep3(doc):
     return text
 
 def doc_to_text_eng_ep3(doc):
-    output = """choose the most accurate answer to the question that follows.
+    output = """ You are a well experienced prenatal and post-natal maternal and child health consultant. You will be provided with optional questions related to pregnancy, delivery, and postnatal health. Your task is to read the question carefully and choose the best answer from the options (a, b, d, or g).
 
                 
                 Question:
